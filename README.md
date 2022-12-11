@@ -15,6 +15,10 @@ The project involves a pet shop management system which can be utilized by the a
 4. Products
 5. Orders
 6. Customers
+### Database
+The following are the tables created in the MySQL database ***pet***.
+
+![image](https://user-images.githubusercontent.com/105790353/206894885-15f0e450-33b3-4146-849a-4ec7497e6e57.png)
 
 ## Working
 
@@ -22,7 +26,7 @@ The project involves a pet shop management system which can be utilized by the a
 
    ![image](https://user-images.githubusercontent.com/105790353/206890760-e38e6081-2578-4ff6-90e3-5f547b7c7286.png)
    
-2. Enter the following credentials which have to be stored in prior in the ***login*** table in the MySQL database ***pet***.
+2. Enter the following credentials which have to be stored in prior in the ***login*** table in the ***pet*** database.
     - Username: *admin*
     - Password: *admin*
 
