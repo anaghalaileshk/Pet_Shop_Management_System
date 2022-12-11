@@ -37,6 +37,20 @@ The project involves a pet shop management system which can be utilized by the a
    
    ![image](https://user-images.githubusercontent.com/105790353/206891350-c7532931-4fd9-42fc-896f-e69ebcbdd4e6.png)
    
+   ![image](https://user-images.githubusercontent.com/105790353/206892890-dc881cf0-aa20-475d-b723-92ebc4ea6857.png)
+   
+   The details can be entered in the required fields and the *Submit* button will store them in the respective tables in the ***pet*** database. 
+   
+   ![image](https://user-images.githubusercontent.com/105790353/206892446-51a28a59-441c-41af-a43b-b1f15cafd709.png)
+   
+   The *SHOW* button will display all the details stored in corresponding table.
+   
+   ![image](https://user-images.githubusercontent.com/105790353/206892773-b469a6d5-0293-4073-b0c6-8274e4bff8d6.png)
+
+   
+   
+
+   
    
    
    
