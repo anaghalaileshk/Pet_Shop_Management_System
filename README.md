@@ -28,4 +28,19 @@ The project involves a pet shop management system which can be utilized by the a
 3. Clicking on the *Submit* button will open up the dashboard coded in ***DashBoard.java***.
    
    ![image](https://user-images.githubusercontent.com/105790353/206890716-64c8505f-3e56-4b9b-b1b6-030454ecf655.png)
+   
+4. The buttons *Employee*, *Products*, *Orders*, and *Customers*  will navigate to the corresponding pages coded in ***EMPLOYEE.java***, ***products.java***, ***orders.java***, and ***customers.java***.
+
+   ![image](https://user-images.githubusercontent.com/105790353/206891262-31d65d7f-c9fe-4a5d-b7c8-45dfb8af721a.png) 
+   
+   ![image](https://user-images.githubusercontent.com/105790353/206891295-dee172b8-c8f9-452e-9513-0f79d1d4c831.png) 
+   
+   ![image](https://user-images.githubusercontent.com/105790353/206891350-c7532931-4fd9-42fc-896f-e69ebcbdd4e6.png)
+   
+   
+   
+   
+
+   
+   
 
