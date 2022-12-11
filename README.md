@@ -31,8 +31,8 @@ The following are the tables created in the MySQL database ***pet***.
     - Password: *admin*
 
 3. Clicking on the *Submit* button will open up the dashboard coded in ***DashBoard.java***.
-   
-   ![image](https://user-images.githubusercontent.com/105790353/206890716-64c8505f-3e56-4b9b-b1b6-030454ecf655.png)
+
+   ![image](https://user-images.githubusercontent.com/105790353/206895947-ba889e41-db5c-4343-8be6-1ce26ea056a8.png)
    
 4. The buttons *Employee*, *Products*, *Orders*, and *Customers*  will navigate to the corresponding pages coded in ***EMPLOYEE.java***, ***products.java***, ***orders.java***, and ***customers.java***.
 
