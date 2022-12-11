@@ -45,9 +45,15 @@ The project involves a pet shop management system which can be utilized by the a
    
    The *SHOW* button will display all the details stored in corresponding table.
    
+   ![image](https://user-images.githubusercontent.com/105790353/206893327-ee47a2e3-b0d5-4259-9b73-b807baaee3d9.png)
    ![image](https://user-images.githubusercontent.com/105790353/206892773-b469a6d5-0293-4073-b0c6-8274e4bff8d6.png)
 
+   The *BACK* button will navigate back to the dashboard.
    
+5. The *Logout* button on the dashboard allows you to log out of the dashboard and navigate back to the login page.
+
+## Reference
+Tutorial: https://www.youtube.com/watch?v=s00pa3iqJDI&t=166s
    
 
    
