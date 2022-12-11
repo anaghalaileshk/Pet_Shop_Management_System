@@ -40,7 +40,7 @@ The project involves a pet shop management system which can be utilized by the a
    
    ![image](https://user-images.githubusercontent.com/105790353/206892890-dc881cf0-aa20-475d-b723-92ebc4ea6857.png)
    
-   The details can be entered in the required fields and the *Submit* button will store them in the respective tables in the ***pet*** database. 
+5. The details can be entered in the required fields and the *Submit* button will store them in the respective tables in the ***pet*** database. 
    
    ![image](https://user-images.githubusercontent.com/105790353/206892446-51a28a59-441c-41af-a43b-b1f15cafd709.png)
    
@@ -52,7 +52,7 @@ The project involves a pet shop management system which can be utilized by the a
 
    The *BACK* button will navigate back to the dashboard.
    
-5. The *Logout* button on the dashboard allows you to log out of the dashboard and navigate back to the login page.
+6. The *Logout* button on the dashboard allows you to log out of the dashboard and navigate back to the login page.
 
 ## Reference
 Tutorial: https://www.youtube.com/watch?v=s00pa3iqJDI&t=166s
