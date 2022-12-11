@@ -30,7 +30,7 @@ The following are the tables created in the MySQL database ***pet***.
     - Username: *admin*
     - Password: *admin*
 
-3. Clicking on the *Submit* button will open up the dashboard coded in ***DashBoard.java***.
+3. Clicking on the *Submit* button will open up the dashboard coded in ***dashboard.java***.
 
    ![image](https://user-images.githubusercontent.com/105790353/206895947-ba889e41-db5c-4343-8be6-1ce26ea056a8.png)
    
