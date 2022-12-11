@@ -36,8 +36,8 @@ public class LoginPage extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         un = new javax.swing.JTextField();
-        pass = new javax.swing.JPasswordField();
         jButton1 = new javax.swing.JButton();
+        pass = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -48,16 +48,16 @@ public class LoginPage extends javax.swing.JFrame {
 
         jLabel3.setText("Password");
 
-        pass.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                passActionPerformed(evt);
-            }
-        });
-
         jButton1.setText("Login");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
+            }
+        });
+
+        pass.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                passActionPerformed(evt);
             }
         });
 
@@ -77,8 +77,8 @@ public class LoginPage extends javax.swing.JFrame {
                                     .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(pass)
-                                    .addComponent(un)))))
+                                    .addComponent(un)
+                                    .addComponent(pass)))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(125, 125, 125)
                         .addComponent(jButton1)))
@@ -105,16 +105,12 @@ public class LoginPage extends javax.swing.JFrame {
         pack();
     }// </editor-fold>                        
 
-    private void passActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        // TODO add your handling code here:
-    }                                    
-
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
 try{
 Class.forName("com.mysql.cj.jdbc.Driver");
-String user=un.getText();
-    char[] pwd= pass.getPassword();
+String user= un.getText();
+String pwd= pass.getText();
 
 Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3307/pet","root","");
 Statement st = con.createStatement();
@@ -141,6 +137,10 @@ catch(Exception e){
 JOptionPane.showMessageDialog(null,"error while establishing failed!!");
 }
     }                                        
+
+    private void passActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+    }                                    
 
     /**
      * @param args the command line arguments
@@ -182,7 +182,7 @@ JOptionPane.showMessageDialog(null,"error while establishing failed!!");
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JPasswordField pass;
+    private javax.swing.JTextField pass;
     private javax.swing.JTextField un;
     // End of variables declaration                   
 }
