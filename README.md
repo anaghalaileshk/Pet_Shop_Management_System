@@ -16,3 +16,16 @@ The project involves a pet shop management system which can be utilized by the a
 6. Customers
 
 ## Working
+
+1. Run ***LoginPage.java***. 
+
+   ![image](https://user-images.githubusercontent.com/105790353/206890760-e38e6081-2578-4ff6-90e3-5f547b7c7286.png)
+   
+2. Enter the following credentials which have to be stored in prior in the ***login*** table in the MySQL database ***pet***.
+    - Username: *admin*
+    - Password: *admin*
+
+3. Clicking on the *Submit* button will open up the dashboard coded in ***DashBoard.java***.
+   
+   ![image](https://user-images.githubusercontent.com/105790353/206890716-64c8505f-3e56-4b9b-b1b6-030454ecf655.png)
+
